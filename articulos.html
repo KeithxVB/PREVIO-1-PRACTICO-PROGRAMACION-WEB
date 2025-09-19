@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Artículos sobre tecnología en TechBlog Interactivo">
+    <title>TechBlog Interactivo - Artículos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/jpeg" href="media/Icon.jpg">
+
+</head>
+<body>
+  <!-- Banner fijo con menú -->
+  <header class="banner">
+    <h1>Artículos</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="articulos.html">Artículos</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="articulos">
+
+      <!-- Artículo 1 -->
+      <div class="tarjeta" class ="galeria">
+        <article>
+          <h2>Innovación Tecnológica</h2>
+          <p>La tecnología avanza a pasos agigantados, impactando la educación, la medicina y el comercio global.</p>
+          <p>Con el uso de inteligencia artificial y automatización, las empresas logran mayor eficiencia y competitividad.</p>
+          <img src="media/tecnologia.jpg" alt="Ilustración de innovación tecnológica">
+          <ul>
+            <li>Inteligencia Artificial</li>
+            <li>Realidad Virtual</li>
+            <li>Automatización</li>
+          </ul>
+        </article>
+      </div>
+
+      <!-- Artículo 2 -->
+      <div class="tarjeta">
+        <article>
+          <h2>Cuidado del Medio Ambiente</h2>
+          <p>La crisis ambiental nos exige cambios de hábitos en nuestro consumo y relación con los recursos naturales.</p>
+          <p>Pequeñas acciones en el día a día pueden marcar una gran diferencia en la reducción de la contaminación.</p>
+          <img src="media/medioambiente.jpg" alt="Naturaleza y medio ambiente">
+          <ol>
+            <li>Reducir uso de plásticos</li>
+            <li>Ahorrar energía</li>
+            <li>Fomentar el reciclaje</li>
+          </ol>
+        </article>
+      </div>
+
+      <!-- Artículo 3 con badge -->
+      <div class="tarjeta">
+        <span class="badge">Nuevo</span>
+        <article>
+          <h2>Tendencias Empresariales</h2>
+          <p>El mundo empresarial se transforma con modelos de trabajo remoto, digitalización y economía circular.</p>
+          <p>Las empresas que se adaptan a la innovación logran mantenerse competitivas en el mercado actual.</p>
+          <img src="media/empresas.jpg" alt="Ilustración de tendencias en negocios">
+          <ul>
+            <li>Trabajo remoto</li>
+            <li>Transformación digital</li>
+            <li>Sostenibilidad</li>
+          </ul>
+        </article>
+      </div>
+
+    </section>
+
+    <!-- Lista de notas -->
+    <section>
+        <h3>Notas rápidas</h3>
+        <input type="text" id="nuevaNota" placeholder="Escribe una nueva nota">
+        <button id="agregarNota">Agregar Nota</button>
+        <ul id="listaNotas">
+        <li>Ejemplo de nota existente</li>
+        </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 TechBlog Interactivo</p>
+    <a href="https://github.com/">GitHub</a> | 
+    <a href="https://developer.mozilla.org/es/">Recursos Externos</a>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

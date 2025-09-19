@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto con TechBlog Interactivo">
+    <title>TechBlog Interactivo - Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/jpeg" href="media/Icon.jpg">
+
+</head>
+<body>
+  <header class="banner">
+    <h1>Contacto</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="articulos.html">Artículos</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form id="formContacto">
+      <label>Nombre:
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
+      </label>
+      <label>Email:
+        <input type="email" name="correo" placeholder="ejemplo@mail.com" required>
+      </label>
+      <label>Edad:
+        <input type="number" name="edad" placeholder="Tu edad">
+      </label>
+      <label>Tema:
+        <select name="tema" required>
+          <option value="">Selecciona un tema</option>
+          <option value="soporte">Soporte</option>
+          <option value="colaboracion">Colaboración</option>
+          <option value="sugerencias">Sugerencias</option>
+        </select>
+      </label>
+      <label>Mensaje:
+        <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+      </label>
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 TechBlog Interactivo</p>
+    <a href="https://github.com/">GitHub</a> | 
+    <a href="https://developer.mozilla.org/es/">Recursos Externos</a>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

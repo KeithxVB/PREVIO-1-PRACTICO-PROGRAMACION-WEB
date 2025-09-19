@@ -64,8 +64,8 @@ if (btnAgregarNota && nuevaNota && listaNotas) {
     const li = document.createElement("li");
     li.innerText = texto;
 
-    listaNotas.prepend(li); // agrega al inicio
-    nuevaNota.value = ""; // limpia input
+    listaNotas.prepend(li); 
+    nuevaNota.value = "";
   });
 }
 

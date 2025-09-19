@@ -8,3 +8,10 @@
   <p>La Web 1.0 era estática, la Web 2.0 introdujo interactividad y redes sociales, y la Web 3.0 
     está enfocada en descentralización, inteligencia artificial y semántica.</p>
 </section>
+
+## Capturas de pantalla
+<img src="screenshots/Cap1.png" alt="Captura 1" width="300"/>
+<img src="screenshots/Cap2.png" alt="Captura 2" width="300"/>
+<img src="screenshots/Cap3.png" alt="Captura 3" width="300"/>
+<img src="screenshots/Cap4.png" alt="Captura 4" width="300"/>
+<img src="screenshots/Cap5.png" alt="Captura 5" width="300"/>
